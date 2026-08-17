@@ -174,7 +174,7 @@ func Strength(score int) string {
 	switch {
 	case score < 40:
 		return "弱"
-	case score <= 60:
+	case score < 60:
 		return "一般"
 	case score < 80:
 		return "强"
